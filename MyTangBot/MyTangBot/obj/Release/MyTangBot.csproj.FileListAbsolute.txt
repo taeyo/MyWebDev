@@ -1,0 +1,41 @@
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Bot Application1.dll.config
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Bot Application1.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Bot Application1.pdb
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Autofac.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Chronic.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Newtonsoft.Json.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.Net.Http.Formatting.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.Web.Http.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.Web.Http.WebHost.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Telegram.Bot.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Autofac.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Newtonsoft.Json.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.Net.Http.Formatting.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.Web.Http.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\System.Web.Http.WebHost.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\Telegram.Bot.xml
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\obj\Release\MyTangBot.csprojResolveAssemblyReference.cache
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\obj\Release\Bot Application1.dll
+C:\Users\taeyo\Documents\GitHub\MyWebDev\MyTangBot\MyTangBot\obj\Release\Bot Application1.pdb
