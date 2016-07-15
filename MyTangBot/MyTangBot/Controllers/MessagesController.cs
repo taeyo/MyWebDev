@@ -88,7 +88,7 @@ namespace MyBot
                     context,
                     HelpCommandResponseFunction,
                     "도움말을 보시겠어요?",
-                    "Didn't get that!");
+                    "다시 선택해 주십시오. 도움말을 보시겠어요?");
             }
             else
             {
