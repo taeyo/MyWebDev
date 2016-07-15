@@ -15,7 +15,6 @@ namespace MyBot
     [BotAuthentication]
     public class MessagesController : ApiController
     {
-
         /// <summary>
         /// POST: api/Messages
         /// Receive a message from a user and reply to it
@@ -76,14 +75,26 @@ namespace MyBot
     [Serializable]
     public class HelpDialog : IDialog<object>
     {
+        private const string initMsg = "업무 시간이 이딴 거나 테스트하고 그러면 안돼!";
+        protected int count = 0;
+
         public async Task StartAsync(IDialogContext context)
         {
             context.Wait(HelpMessageReceived);
         }
         public async Task HelpMessageReceived(IDialogContext context, IAwaitable<IMessageActivity> argument)
         {
+            count++;
+
             var message = await argument;
-            if (message.Text == "help")
+
+            if(count == 1)
+            {
+                await context.PostAsync($"{initMsg}");
+                context.Wait(HelpMessageReceived);
+            }
+
+            if (message.Text.ToLower() == "help")
             {
                 PromptDialog.Confirm(
                     context,
