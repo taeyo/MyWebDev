@@ -75,7 +75,7 @@ namespace MyBot
     [Serializable]
     public class HelpDialog : IDialog<object>
     {
-        private const string initMsg = "업무 시간이 이딴 거나 테스트하고 그러면 안돼!";
+        private const string initMsg = "업무 시간이 이딴 거나 테스트하고 그러면 안돼! help라고 써봐";
         protected int count = 0;
 
         public async Task StartAsync(IDialogContext context)
@@ -84,16 +84,9 @@ namespace MyBot
         }
         public async Task HelpMessageReceived(IDialogContext context, IAwaitable<IMessageActivity> argument)
         {
-            count++;
+            this.count++;
 
             var message = await argument;
-
-            if(count == 1)
-            {
-                await context.PostAsync($"{initMsg}");
-                context.Wait(HelpMessageReceived);
-            }
-
             if (message.Text.ToLower() == "help")
             {
                 PromptDialog.Confirm(
@@ -104,9 +97,17 @@ namespace MyBot
             }
             else
             {
-                int length = (message.Text ?? string.Empty).Length;
-                await context.PostAsync($"입력한 문장의 총 글자수는 {length} 개 입니다");
-                context.Wait(HelpMessageReceived);
+                if (count == 1)
+                {
+                    await context.PostAsync($"{initMsg}");
+                    context.Wait(HelpMessageReceived);
+                }
+                else
+                {
+                    int length = (message.Text ?? string.Empty).Length;
+                    await context.PostAsync($"입력한 문장의 총 글자수는 {length} 개 입니다");
+                    context.Wait(HelpMessageReceived);
+                }
             }
         }
         public async Task HelpCommandResponseFunction(IDialogContext context, IAwaitable<bool> argument)
